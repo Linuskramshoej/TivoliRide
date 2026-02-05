@@ -13,7 +13,7 @@ public class TivoliRide {
         if ((height > 185)) {
             return "Enjoy the Ride.";
 
-        } else if ((height <= 185)) {
+        } else if ((height < 185)) {
             return "Bare ærgeligt brormand";
 
         } else if ((height == 185)){
